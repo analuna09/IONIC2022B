@@ -1,0 +1,7 @@
+{
+  "name": "Practicas",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
