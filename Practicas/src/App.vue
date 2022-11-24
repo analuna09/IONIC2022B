@@ -18,7 +18,7 @@ export default defineComponent({
   created(){
   //manda a llamar ciclo de vida de app template
     const auth = getAuth();
-    signInWithEmailAndPassword(auth, "langelita18@gmail.com", "la123456456").then((userCredential)=>{
+    signInWithEmailAndPassword(auth, "langelita18@gmail.com", "123456789").then((userCredential)=>{
       const user = userCredential.user
     if(user == null){
         console.log("No Autenticado")
